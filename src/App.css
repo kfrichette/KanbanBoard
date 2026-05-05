@@ -1,0 +1,49 @@
+.App {
+  width: 100%;
+  padding: 30px;
+
+  .TaskAdd {
+    margin-bottom: 20px;
+
+    label, input {
+      margin-right: 10px;
+      padding: 6px;
+    }
+
+    button {
+      padding: 6px;
+    }
+  }
+
+
+  .TasksContainer {
+    display: flex;
+
+    .Tasks {
+      width: 33.33%;
+
+      h2 {
+        text-align: center;
+      }
+
+      ul {
+        justify-content: center;
+        padding: 6px;
+
+        li {
+          list-style: none;
+          border: 1px solid #ccc;
+          border-radius: 8px;
+          padding: 6px;
+          margin-bottom: 10px;
+
+          select {
+            float: right;
+            border: none;
+            padding: 4px;
+          }
+        }
+      }
+    }
+  }
+}
