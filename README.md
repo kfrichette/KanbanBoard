@@ -1,6 +1,6 @@
 # Kanban Board
 
-A lightweight Kanban board built with React and Vite. The app lets users add tasks, organize them by status, and move tasks between workflow columns.
+A lightweight Kanban board built with React and Vite. The app lets users add tasks, organize them by status, and move tasks between workflow columns (WIP, changinge status using the dropdown moves the task).
 
 ## Features
 
